@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="flex flex-col gap-3 h-screen w-screen justify-center items-center">
@@ -7,6 +9,9 @@ export default function Home() {
         alt="Picture of a cat"
         className="w-[500px] h-[300px]"
       />
+      <Link href="/dog" className="underline text-blue-500">
+        Click here
+      </Link>
     </main>
   );
 }
