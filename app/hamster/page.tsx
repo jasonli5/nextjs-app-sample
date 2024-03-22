@@ -15,6 +15,9 @@ export default function Page() {
       <Link href="/dog" className="underline text-blue-500">
         Go back
       </Link>
+      <Link href="/bird" className="underline text-blue-500">
+        Go bird
+      </Link>
       <Link href="/" className="underline text-blue-500">
         Go home
       </Link>
