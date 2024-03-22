@@ -9,8 +9,8 @@ export default function Page() {
         alt="Picture of a dog"
         className="w-[500px] h-[300px]"
       />
-      <Link href="/" className="underline text-blue-500">
-        Go back
+      <Link href="/hamster" className="underline text-blue-500">
+        Go ham
       </Link>
     </main>
   );
